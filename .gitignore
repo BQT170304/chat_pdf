@@ -6,3 +6,4 @@ test.*
 .env.test.local
 .env.production.local
 
+__pycache__/
