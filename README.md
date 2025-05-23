@@ -1,6 +1,6 @@
-# Semantic Chunking RAG System
+# Chat with PDF
 
-This project implements a Retrieval-Augmented Generation (RAG) system using semantic chunking with OpenSearch for both text and vector storage.
+This project implements a Retrieval-Augmented Generation (RAG) chatbot with OpenSearch for both text and vector storage to process and chat with your PDF.
 
 ## Features
 
@@ -86,16 +86,3 @@ streamlit run app.py
 
 - **Backend**: The FastAPI server is defined in `backend/main.py` with modular components for PDF processing, OpenSearch integration, and the RAG pipeline.
 - **Frontend**: The Streamlit app is defined in `frontend/app.py`.
-
-## Dependencies
-
-- FastAPI - Web framework
-- PyMuPDF - PDF processing
-- LangChain - RAG pipeline
-- SentenceTransformers - Embedding generation
-- OpenSearch - Document storage and retrieval
-- Streamlit - Frontend interface
-
-## License
-
-MIT 
